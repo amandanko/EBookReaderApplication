@@ -16,4 +16,13 @@ public class Library {
     }
 
     // TODO: generate getters & setters
+
+
+    public ArrayList<EBook> getBooks() {
+        return books;
+    }
+
+    public void setBooks(ArrayList<EBook> books) {
+        this.books = books;
+    }
 }
